@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <!--fonty-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Montserrat:wght@300;400;500&family=Xanh+Mono&display=swap" rel="stylesheet">
+     
+    </head>
+    <body>
+     <!--hlavička-->
+    <header class="header">
+        <ul class="list"> 
+            <li class="list__item"><a class="list__item--link" href="/index.html">Úvod</a></li>
+            <li class="list__item"><a class="list__item--link" href="/basic_info/">Základní informace</a></li>
+            <li class="list__item"><a class="list__item--link" href="/top_places/">Kam musíš</a></li>
+            <!-- <li><a href="#">Oblasti HK</a></li>            nestíhám, doplním si někdy v budoucnu-->
+            <li class="list__item"><a class="list__item--link" href="/important_links/">Důležité odkazy</a></li>
+        </ul>
+    </header>
+ {{ content | safe }}
+     <!--patička-->
+ <footer class="footer">
+    ©Zuzana Nedasová, 2024, e-mail: zuzkysvet@gmail.com
+  </footer> 
+ </body>
+ </html>
