@@ -1,0 +1,1 @@
+Jedná se o závěrečný projekt, který jsem vypracovala pro Czechitas kurz "Staň se kodérkoku". Zadání bylo: kompletní vlastní návrh a jeho realizace - minimálně 4stránkový web, responzivní, s použitím HTML, CSS, flexbox / CSS grid, BEM / Sass, šablona Eleventy.
